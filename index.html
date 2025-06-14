@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvus Graphics - Professional Design Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-image-box">
+                    <img src="Canvus Graphics Logo.png" alt="Canvus Graphics" class="logo-img">
+                </div>
+                <span class="logo-text">Canvus Graphics</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#benefits" class="nav-link">Benefits</a>
+                <a href="#tools" class="nav-link">Tools</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-shapes">
+            <svg class="shape shape-1" width="320" height="320" viewBox="0 0 320 320"><circle cx="160" cy="160" r="140" stroke="#fff" stroke-width="6" fill="none"/></svg>
+            <svg class="shape shape-2" width="220" height="220" viewBox="0 0 220 220"><rect x="10" y="10" width="200" height="200" rx="40" stroke="#fff" stroke-width="6" fill="none"/></svg>
+            <svg class="shape shape-3" width="260" height="260" viewBox="0 0 260 260"><polygon points="130,20 250,240 10,240" stroke="#fff" stroke-width="6" fill="none"/></svg>
+            <svg class="shape shape-4" width="180" height="180" viewBox="0 0 180 180"><circle cx="90" cy="90" r="80" stroke="#fff" stroke-width="6" fill="none"/></svg>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title motion-effect" id="heroTitle">Canvus Graphics</h1>
+            <p class="fade-in">Bold Designs. Real Impact.</p>
+            <div class="cta-buttons">
+                <a href="#portfolio" class="btn primary-btn">View Our Work</a>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+    <div class="section-divider"></div>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-box">
+                <div class="about-content">
+                    <p>At Canvus Graphics, we believe that exceptional design is the cornerstone of every successful brand. Founded on a passion for visual storytelling and a commitment to client success, Canvus Graphics is a dedicated design studio focused on delivering impactful and unique graphic solutions.</p>
+                    <p>We work closely with businesses, from ambitious startups to established enterprises, to understand their unique challenges and aspirations. Our approach is rooted in thoughtful strategy, meticulous attention to detail, and a creative flair that ensures your brand not only stands out but truly resonates with your target audience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="section-divider"></div>
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <h2>Benefits</h2>
+            <p class="subtitle">Why Design Matters</p>
+            <div class="benefits-grid minimal-benefits">
+                <div class="benefit-box" data-benefit="identity">
+                    <i class="fas fa-paint-brush"></i>
+                    <span>Identity</span>
+                </div>
+                <div class="benefit-box" data-benefit="engage">
+                    <i class="fas fa-users"></i>
+                    <span>Engage</span>
+                </div>
+                <div class="benefit-box" data-benefit="trust">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Trust</span>
+                </div>
+                <div class="benefit-box" data-benefit="clarity">
+                    <i class="fas fa-comments"></i>
+                    <span>Clarity</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="section-divider"></div>
+    <!-- Benefit Modal -->
+    <div class="benefit-modal">
+        <div class="benefit-modal-content">
+            <span class="close-benefit-modal">&times;</span>
+            <div class="benefit-modal-body">
+                <i class="modal-icon"></i>
+                <h3 class="modal-title"></h3>
+                <p class="modal-desc"></p>
+            </div>
+        </div>
+    </div>
+    <!-- Tools Section -->
+    <section id="tools" class="tools">
+        <div class="container">
+            <h2>Toolkit</h2>
+            <div class="tools-grid minimal-tools">
+                <button class="tool-btn" data-tool="photoshop">
+                    <i class="fas fa-image"></i>
+                    <span>Photoshop</span>
+                </button>
+                <button class="tool-btn" data-tool="illustrator">
+                    <i class="fas fa-pen-nib"></i>
+                    <span>Illustrator</span>
+                </button>
+                <button class="tool-btn" data-tool="indesign">
+                    <i class="fas fa-file-alt"></i>
+                    <span>InDesign</span>
+                </button>
+                <button class="tool-btn" data-tool="canva">
+                    <i class="fas fa-palette"></i>
+                    <span>Canva</span>
+                </button>
+                <button class="tool-btn" data-tool="figma">
+                    <i class="fab fa-figma"></i>
+                    <span>Figma</span>
+                </button>
+                <button class="tool-btn" data-tool="coreldraw">
+                    <i class="fas fa-draw-polygon"></i>
+                    <span>CorelDRAW</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <div class="section-divider"></div>
+    <!-- Tool Modal -->
+    <div class="tool-modal">
+        <div class="tool-modal-content">
+            <span class="close-tool-modal">&times;</span>
+            <div class="tool-modal-body">
+                <i class="tool-modal-icon"></i>
+                <h3 class="tool-modal-title"></h3>
+                <p class="tool-modal-desc"></p>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Our Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="branding">
+                    <img src="Bakery.png" alt="Sweet Crumbs Bakery">
+                    <div class="portfolio-overlay">
+                        <h3>Sweet Crumbs</h3>
+                        <p>Brand Identity</p>
+                        <button class="view-project">View Project</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="menu">
+                    <img src="bk menu.jpg" alt="Burger King Menu">
+                    <div class="portfolio-overlay">
+                        <h3>Burger King</h3>
+                        <p>Menu Design</p>
+                        <button class="view-project">View Project</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="menu">
+                    <img src="KFC Menu.png" alt="KFC Menu">
+                    <div class="portfolio-overlay">
+                        <h3>KFC</h3>
+                        <p>Menu Design</p>
+                        <button class="view-project">View Project</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="branding">
+                    <img src="Brand logo.png" alt="NUDE Luxury Clothing">
+                    <div class="portfolio-overlay">
+                        <h3>NUDE</h3>
+                        <p>Luxury Branding</p>
+                        <button class="view-project">View Project</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="event">
+                    <img src="Event logo.png" alt="PREDATOR Esports Event">
+                    <div class="portfolio-overlay">
+                        <h3>PREDATOR</h3>
+                        <p>Event Branding</p>
+                        <button class="view-project">View Project</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="promotion">
+                    <img src="Halloween.png" alt="The Haunted Mug Café">
+                    <div class="portfolio-overlay">
+                        <h3>Haunted Mug</h3>
+                        <p>Promotion</p>
+                        <button class="view-project">View Project</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="advertising">
+                    <img src="Pepsi.png" alt="FIFA Pepsi Ad">
+                    <div class="portfolio-overlay">
+                        <h3>FIFA Pepsi</h3>
+                        <p>Ad Campaign</p>
+                        <button class="view-project">View Project</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="promotion">
+                    <img src="Street store.png" alt="Street Store NY">
+                    <div class="portfolio-overlay">
+                        <h3>Street Store</h3>
+                        <p>Sale Promotion</p>
+                        <button class="view-project">View Project</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="branding">
+                    <img src="Salon.png" alt="Salon Branding">
+                    <div class="portfolio-overlay">
+                        <h3>Salon</h3>
+                        <p>Branding</p>
+                        <button class="view-project">View Project</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="comingsoon">
+                    <img src="Comming soon.png" alt="MTING Coming Soon">
+                    <div class="portfolio-overlay">
+                        <h3>MTING</h3>
+                        <p>Coming Soon</p>
+                        <button class="view-project">View Project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="section-divider"></div>
+    <!-- Portfolio Modal -->
+    <div class="portfolio-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <img src="" alt="Project Preview">
+                <div class="project-info">
+                    <h3></h3>
+                    <p></p>
+                    <div class="project-details">
+                        <div class="detail-item">
+                            <span>Category:</span>
+                            <span class="category"></span>
+                        </div>
+                        <div class="detail-item">
+                            <span>Tools Used:</span>
+                            <span class="tools"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Let's Create Something Amazing</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>Canvusgraphics@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-instagram"></i>
+                        <p><a href="https://www.instagram.com/canvus_graphics/" target="_blank">@canvus_graphics</a></p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" id="from_name" placeholder="Your Name" required>
+                    <input type="email" id="from_email" placeholder="Your Email" required>
+                    <input type="text" id="subject" placeholder="Subject" required>
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2024 Canvus Graphics. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
